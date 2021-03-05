@@ -10,5 +10,9 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "items": [
+    { "id": 1, "name": "Chicken Biryani", "postId": 1 },
+    { "id": 2, "name": "Mutton Biryani", "postId": 2 }
+  ]
 }
