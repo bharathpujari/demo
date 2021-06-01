@@ -21,18 +21,6 @@
       "title": "Non Veg Starters",
       "items": [
         {
-          "itemId": 120,
-          "itemName": "Chicken - 65",
-          "imageName": "chickensf",
-          "itemPrice": 230
-        },
-        {
-          "itemId": 121,
-          "itemName": "Chicken Magestic",
-          "imageName": "chickenmajestic",
-          "itemPrice": 230
-        },
-        {
           "itemId": 122,
           "itemName": "Chicken Bullet",
           "imageName": "chickenbullet",
