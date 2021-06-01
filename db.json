@@ -1,18 +1,1181 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "items": [
-    { "id": 1, "name": "Chicken Biryani", "postId": 1 },
-    { "id": 2, "name": "Mutton Biryani", "postId": 2 }
+  "categories": [
+    {
+      "title": "Combo Packs",
+      "items": [
+        {
+          "itemId": 1,
+          "itemName": "Chicken Combo Pack",
+          "imageName": "chickencombo",
+          "itemPrice": 1050
+        },
+        {
+          "itemId": 2,
+          "itemName": "Mutton Combo Pack",
+          "imageName": "muttoncombo",
+          "itemPrice": 1100
+        }
+      ]
+    },
+    {
+      "title": "Non Veg Starters",
+      "items": [
+        {
+          "itemId": 120,
+          "itemName": "Chicken - 65",
+          "imageName": "chickensf",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 121,
+          "itemName": "Chicken Magestic",
+          "imageName": "chickenmajestic",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 122,
+          "itemName": "Chicken Bullet",
+          "imageName": "chickenbullet",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 123,
+          "itemName": "Chicken Lollypop",
+          "imageName": "chicken_lollipop",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 124,
+          "itemName": "Chicken Roast",
+          "imageName": "chickensf",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 125,
+          "itemName": "Chicken Drum Sticks",
+          "imageName": "chicken drumstick",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 126,
+          "itemName": "Chicken Manchuria",
+          "imageName": "chillichicken",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 127,
+          "itemName": "Chilly Chicken",
+          "imageName": "chillichicken",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 128,
+          "itemName": "Pepper Chicken",
+          "imageName": "pepperchicken",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 129,
+          "itemName": "Garlic Chicken",
+          "imageName": "garlic chicken",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 130,
+          "itemName": "Ginger Chicken",
+          "imageName": "gingerchicken",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 131,
+          "itemName": "Apollo Chicken",
+          "imageName": "apollochicken",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 132,
+          "itemName": "Chicken Tikka",
+          "imageName": "chicken tikka",
+          "itemPrice": 250
+        },
+        {
+          "itemId": 133,
+          "itemName": "Tangdi Kebab Single(2)",
+          "imageName": "tanghi kebab",
+          "itemPrice": 180
+        },
+        {
+          "itemId": 134,
+          "itemName": "Tangdi Kebab Full(4)",
+          "imageName": "tanghi kebab",
+          "itemPrice": 320
+        },
+        {
+          "itemId": 135,
+          "itemName": "Tandoori Chicken Half",
+          "imageName": "tandoorichicken",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 136,
+          "itemName": "Tandoori Chicken Full",
+          "imageName": "tandoorichicken",
+          "itemPrice": 420
+        },
+        {
+          "itemId": 137,
+          "itemName": "Sejwan Chicken Dry",
+          "imageName": "szechuan chicken dry",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 138,
+          "itemName": "Chillie Sejwan Chicken",
+          "imageName": "chilli schewan chicken",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 139,
+          "itemName": "Bir. Chicken Extra Piece",
+          "imageName": "tandoorichicken",
+          "itemPrice": 70
+        },
+        {
+          "itemId": 140,
+          "itemName": "Mutton Fry",
+          "imageName": "mutton fry",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 141,
+          "itemName": "Mutton 65",
+          "imageName": "mutton sf",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 142,
+          "itemName": "Mutton Manchuria",
+          "imageName": "mutton manchuria",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 143,
+          "itemName": "Chilli Mutton",
+          "imageName": "chilli mutton",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 144,
+          "itemName": "Pepper Mutton",
+          "imageName": "pepper mutton",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 146,
+          "itemName": "Ginger Mutton",
+          "imageName": "ginger mutton",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 147,
+          "itemName": "Garlic Mutton",
+          "imageName": "garlic mutton",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 150,
+          "itemName": "Apollo Fish Single (5)",
+          "imageName": "apollo fish",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 151,
+          "itemName": "Apollo Fish Full (5)",
+          "imageName": "apollo fish",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 152,
+          "itemName": "Fish 65",
+          "imageName": "fish sf",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 153,
+          "itemName": "Fish Manchuria",
+          "imageName": "fish manchuria",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 154,
+          "itemName": "Fish Fry",
+          "imageName": "fish fry",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 155,
+          "itemName": "Fish Roast",
+          "imageName": "fish roast",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 156,
+          "itemName": "Prawns Fry",
+          "imageName": "chilli prawns",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 157,
+          "itemName": "Prawns 65",
+          "imageName": "prawns sf",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 158,
+          "itemName": "Chilli Prawns",
+          "imageName": "chilli prawns",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 159,
+          "itemName": "Prawns Manchuria",
+          "imageName": "prawn manchurian",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 160,
+          "itemName": "Garlic Prawns",
+          "imageName": "garlicprawns",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 162,
+          "itemName": "Loose Prawns",
+          "imageName": "loose prawns",
+          "itemPrice": 300
+        }
+      ]
+    },
+    {
+      "title": "Veg Starters",
+      "items": [
+        {
+          "itemId": 163,
+          "itemName": "Egg Pakoda",
+          "imageName": "egg_pakoda",
+          "itemPrice": 130
+        },
+        {
+          "itemId": 164,
+          "itemName": "Egg Roast",
+          "imageName": "egg roast",
+          "itemPrice": 130
+        },
+        {
+          "itemId": 165,
+          "itemName": "Chilli Egg",
+          "imageName": "chilli egg",
+          "itemPrice": 130
+        },
+        {
+          "itemId": 166,
+          "itemName": "Omlet",
+          "imageName": "omlet",
+          "itemPrice": 50
+        },
+        {
+          "itemId": 167,
+          "itemName": "Boiled Egg",
+          "imageName": "boiled egg",
+          "itemPrice": 15
+        },
+        {
+          "itemId": 168,
+          "itemName": "Plain Papad",
+          "imageName": "papad",
+          "itemPrice": 20
+        },
+        {
+          "itemId": 169,
+          "itemName": "Masala Papad",
+          "imageName": "masala papad",
+          "itemPrice": 40
+        },
+        {
+          "itemId": 170,
+          "itemName": "Finger Chips",
+          "imageName": "finger chips",
+          "itemPrice": 130
+        },
+        {
+          "itemId": 171,
+          "itemName": "Veg - 65",
+          "imageName": "veg sf",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 172,
+          "itemName": "Gobi - 65",
+          "imageName": "gobi sf",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 173,
+          "itemName": "Chilli Gobi",
+          "imageName": "chilli gobi",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 176,
+          "itemName": "Veg Manchuria",
+          "imageName": "veg manchuria",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 177,
+          "itemName": "Gobi Manchuria",
+          "imageName": "gobi_manchurian",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 178,
+          "itemName": "Veg Sejwan",
+          "imageName": "veg schezwan",
+          "itemPrice": 180
+        },
+        {
+          "itemId": 179,
+          "itemName": "Paneer 65",
+          "imageName": "panner sf",
+          "itemPrice": 180
+        },
+        {
+          "itemId": 180,
+          "itemName": "Paneer Pakoda",
+          "imageName": "paneer_pakora",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 181,
+          "itemName": "Chilli Paneer",
+          "imageName": "chilli panner",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 182,
+          "itemName": "Pepper Paneer",
+          "imageName": "pepper panner",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 183,
+          "itemName": "Ginger Paneer",
+          "imageName": "ginger panner",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 184,
+          "itemName": "Paneer Tikka Kabab",
+          "imageName": "panner tikka kebab",
+          "itemPrice": 220
+        },
+        {
+          "itemId": 185,
+          "itemName": "Paneer Sejwan Dry",
+          "imageName": "paneer schezwan dry",
+          "itemPrice": 220
+        },
+        {
+          "itemId": 186,
+          "itemName": "Baby Corn Manchuria",
+          "imageName": "baby_corn_manchurian",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 187,
+          "itemName": "Baby Corn Sejwan",
+          "imageName": "baby corn schezwan",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 188,
+          "itemName": "Baby corn 65",
+          "imageName": "baby corn sf",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 189,
+          "itemName": "Mushroom Manchuria",
+          "imageName": "mushroom manchurian",
+          "itemPrice": 210
+        },
+        {
+          "itemId": 190,
+          "itemName": "Mushroom 65",
+          "imageName": "mushroom sf",
+          "itemPrice": 210
+        },
+        {
+          "itemId": 191,
+          "itemName": "Mushroom Ginger",
+          "imageName": "mushroom ginger",
+          "itemPrice": 210
+        },
+        {
+          "itemId": 192,
+          "itemName": "Chilli Mushroom",
+          "imageName": "chilli mushroom",
+          "itemPrice": 210
+        },
+        {
+          "itemId": 193,
+          "itemName": "Sejwan Mushroom",
+          "imageName": "schewan mushroom",
+          "itemPrice": 230
+        }
+      ]
+    },
+    {
+      "title": "Dum Biryanis",
+      "items": [
+        {
+          "itemId": 3,
+          "itemName": "Chicken Biryani Single",
+          "imageName": "chicken_biryani",
+          "itemPrice": 150
+        },
+        {
+          "itemId": 4,
+          "itemName": "Chicken Biryani Full",
+          "imageName": "chicken_biryani",
+          "itemPrice": 220
+        },
+        {
+          "itemId": 5,
+          "itemName": "Chicken Biryani Family Pack",
+          "imageName": "chicken_biryani",
+          "itemPrice": 540
+        },
+        {
+          "itemId": 6,
+          "itemName": "Chicken Biryani Jumbo Pack",
+          "imageName": "chicken_biryani",
+          "itemPrice": 750
+        },
+        {
+          "itemId": 7,
+          "itemName": "Hf Spl. Chi. Biryani Full",
+          "imageName": "chicken_biryani",
+          "itemPrice": 250
+        },
+        {
+          "itemId": 8,
+          "itemName": "Hf Spl. Chi. Biryani Famliy Pack",
+          "imageName": "chicken_biryani",
+          "itemPrice": 580
+        },
+        {
+          "itemId": 9,
+          "itemName": "Mutton Biryani Single",
+          "imageName": "mutton biryani",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 10,
+          "itemName": "Mutton Biryani Full",
+          "imageName": "mutton biryani",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 11,
+          "itemName": "Mutton Biryani Family Pack",
+          "imageName": "mutton biryani",
+          "itemPrice": 560
+        },
+        {
+          "itemId": 12,
+          "itemName": "Mutton Biryani Jumbo Pack",
+          "imageName": "mutton biryani",
+          "itemPrice": 780
+        },
+        {
+          "itemId": 13,
+          "itemName": "Hf Spl. Chi. Mutton Biryani Full",
+          "imageName": "mutton biryani",
+          "itemPrice": 280
+        },
+        {
+          "itemId": 14,
+          "itemName": "Hf Spl. Chi. Mutton Biryani Family Pack",
+          "imageName": "mutton biryani",
+          "itemPrice": 630
+        },
+        {
+          "itemId": 15,
+          "itemName": "Kheema Biryani Single",
+          "imageName": "kheema biryani",
+          "itemPrice": 170
+        },
+        {
+          "itemId": 16,
+          "itemName": "Kheema Biryani Full",
+          "imageName": "kheema biryani",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 17,
+          "itemName": "Fish Biryani Single",
+          "imageName": "fish biryani",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 18,
+          "itemName": "Fish Biryani Full",
+          "imageName": "fish biryani",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 19,
+          "itemName": "Prawns Biryani Single",
+          "imageName": "prawns_biryani",
+          "itemPrice": 170
+        },
+        {
+          "itemId": 20,
+          "itemName": "Prawns Biryani Full",
+          "imageName": "prawns_biryani",
+          "itemPrice": 250
+        },
+        {
+          "itemId": 21,
+          "itemName": "Bonless Chi. Biryani Single",
+          "imageName": "boneless chicken biryani",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 22,
+          "itemName": "Bonless Chi. Biryani Full",
+          "imageName": "boneless chicken biryani",
+          "itemPrice": 260
+        }
+      ]
+    },
+    {
+      "title": "Veg Biryanis",
+      "items": [
+        {
+          "itemId": 23,
+          "itemName": "Egg Biryani",
+          "imageName": "egg biryani",
+          "itemPrice": 150
+        },
+        {
+          "itemId": 24,
+          "itemName": "Veg Biryani Single",
+          "imageName": "veg biryani",
+          "itemPrice": 130
+        },
+        {
+          "itemId": 25,
+          "itemName": "Veg Biryani Full",
+          "imageName": "veg biryani",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 26,
+          "itemName": "Veg Biryani Family Pack",
+          "imageName": "veg biryani",
+          "itemPrice": 440
+        },
+        {
+          "itemId": 27,
+          "itemName": "Mushroom Biryani Single",
+          "imageName": "veg biryani",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 28,
+          "itemName": "Mushroom Biryani Full",
+          "imageName": "mushroom_biryani",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 29,
+          "itemName": "Paneer Biryani Single",
+          "imageName": "panner biryani",
+          "itemPrice": 150
+        },
+        {
+          "itemId": 30,
+          "itemName": "Paneer Biryani Full",
+          "imageName": "panner biryani",
+          "itemPrice": 220
+        },
+        {
+          "itemId": 31,
+          "itemName": "Paneer Biryani Family Pack",
+          "imageName": "panner biryani",
+          "itemPrice": 500
+        },
+        {
+          "itemId": 32,
+          "itemName": "Plain Biryani Rice",
+          "imageName": "plain biryani rice",
+          "itemPrice": 110
+        }
+      ]
+    },
+    {
+      "title": "Roti's",
+      "items": [
+        {
+          "itemId": 33,
+          "itemName": "Tandoori Roti",
+          "imageName": "tandoori roti",
+          "itemPrice": 15
+        },
+        {
+          "itemId": 34,
+          "itemName": "Butter Roti",
+          "imageName": "butter roti",
+          "itemPrice": 20
+        },
+        {
+          "itemId": 35,
+          "itemName": "Plain Naan",
+          "imageName": "plain naan",
+          "itemPrice": 40
+        },
+        {
+          "itemId": 36,
+          "itemName": "Garlic Naan",
+          "imageName": "garlic_naan",
+          "itemPrice": 40
+        },
+        {
+          "itemId": 37,
+          "itemName": "Butter Naan",
+          "imageName": "butter naan",
+          "itemPrice": 40
+        },
+        {
+          "itemId": 38,
+          "itemName": "Masala Kulcha",
+          "imageName": "masala kulcha",
+          "itemPrice": 40
+        },
+        {
+          "itemId": 39,
+          "itemName": "Butter Masala Kulch",
+          "imageName": "butter masala kulcha",
+          "itemPrice": 50
+        }
+      ]
+    },
+    {
+      "title": "Soft Drinks",
+      "items": [
+        {
+          "itemId": 40,
+          "itemName": "Cool drink(Tin)",
+          "imageName": "cold_drink_tin",
+          "itemPrice": 25
+        },
+        {
+          "itemId": 41,
+          "itemName": "Minaral Water",
+          "imageName": "water bottle",
+          "itemPrice": 20
+        },
+        {
+          "itemId": 42,
+          "itemName": "Cool Drink(small)",
+          "imageName": "soft_drinks",
+          "itemPrice": 15
+        },
+        {
+          "itemId": 43,
+          "itemName": "Butter Milk",
+          "imageName": "butter milk",
+          "itemPrice": 40
+        },
+        {
+          "itemId": 44,
+          "itemName": "Sweet Lassi",
+          "imageName": "sweet lassi",
+          "itemPrice": 50
+        },
+        {
+          "itemId": 45,
+          "itemName": "Plain Curd",
+          "imageName": "plain curd",
+          "itemPrice": 25
+        },
+        {
+          "itemId": 46,
+          "itemName": "Pet Bottle",
+          "imageName": "soft_drinks",
+          "itemPrice": 20
+        }
+      ]
+    },
+    {
+      "title": "Non Veg Curry Items",
+      "items": [
+        {
+          "itemId": 47,
+          "itemName": "Chicken Masala",
+          "imageName": "chicken masala",
+          "itemPrice": 200
+        },
+        {
+          "itemId": 48,
+          "itemName": "Chicken Curry",
+          "imageName": "chicken curry",
+          "itemPrice": 200
+        },
+        {
+          "itemId": 49,
+          "itemName": "Chicken Mughlai",
+          "imageName": "chicken mughlai",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 50,
+          "itemName": "Chicken Afghani",
+          "imageName": "chicken afghani",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 51,
+          "itemName": "Kadai Chicken",
+          "imageName": "kadai chicken",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 52,
+          "itemName": "Butter Chicken",
+          "imageName": "butter chicken",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 53,
+          "itemName": "Chettinad Chicken",
+          "imageName": "chettinad chicken",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 54,
+          "itemName": "Gongura Chicken",
+          "imageName": "gongura chicken",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 55,
+          "itemName": "Special Handi Chicken",
+          "imageName": "special handi chicken",
+          "itemPrice": 380
+        },
+        {
+          "itemId": 56,
+          "itemName": "Mutton Kheema",
+          "imageName": "mutton kheema",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 57,
+          "itemName": "Mutton Curry",
+          "imageName": "mutton_curry",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 58,
+          "itemName": "Mutton Masala",
+          "imageName": "mutton masala",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 59,
+          "itemName": "Special Handi Mutton",
+          "imageName": "special handi mutton",
+          "itemPrice": 470
+        },
+        {
+          "itemId": 60,
+          "itemName": "Methi Mutton",
+          "imageName": "methi mutton",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 61,
+          "itemName": "Gongura Mutton",
+          "imageName": "gongura mutton",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 62,
+          "itemName": "Mutton Afghani",
+          "imageName": "mutton masala",
+          "itemPrice": 270
+        },
+        {
+          "itemId": 63,
+          "itemName": "Butter Mutton",
+          "imageName": "mutton masala",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 64,
+          "itemName": "Kadai Mutton",
+          "imageName": "kadai_mutton",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 65,
+          "itemName": "Fish Curry",
+          "imageName": "fish curry",
+          "itemPrice": 250
+        },
+        {
+          "itemId": 66,
+          "itemName": "Fish Masala",
+          "imageName": "fish masala",
+          "itemPrice": 250
+        },
+        {
+          "itemId": 67,
+          "itemName": "Prawns Curry",
+          "imageName": "prawns curry",
+          "itemPrice": 260
+        },
+        {
+          "itemId": 68,
+          "itemName": "Prawns Masala",
+          "imageName": "prawns masala",
+          "itemPrice": 260
+        }
+      ]
+    },
+    {
+      "title": "Veg Curry Items",
+      "items": [
+        {
+          "itemId": 69,
+          "itemName": "Egg Masala",
+          "imageName": "egg masala",
+          "itemPrice": 110
+        },
+        {
+          "itemId": 70,
+          "itemName": "Egg Butter Masala",
+          "imageName": "egg_butter_masala",
+          "itemPrice": 130
+        },
+        {
+          "itemId": 71,
+          "itemName": "Egg Burji",
+          "imageName": "egg_bhurji",
+          "itemPrice": 130
+        },
+        {
+          "itemId": 72,
+          "itemName": "Dal Fry/Tadka",
+          "imageName": "dal fry",
+          "itemPrice": 130
+        },
+        {
+          "itemId": 73,
+          "itemName": "Mix Veg Curry",
+          "imageName": "mix veg curry",
+          "itemPrice": 170
+        },
+        {
+          "itemId": 74,
+          "itemName": "Gobi Masala",
+          "imageName": "gobi masala",
+          "itemPrice": 180
+        },
+        {
+          "itemId": 75,
+          "itemName": "Veg Kadai",
+          "imageName": "veg kadai",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 76,
+          "itemName": "Veg Jaipuri",
+          "imageName": "veg jaipuri",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 77,
+          "itemName": "Veg Chatpat",
+          "imageName": "veg chatpat",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 78,
+          "itemName": "Veg Kolhapuri",
+          "imageName": "veg kolhapuri",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 79,
+          "itemName": "Veg Kofta Malai",
+          "imageName": "veg kofta malai",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 80,
+          "itemName": "Tomato Curry",
+          "imageName": "tomatocurry",
+          "itemPrice": 120
+        },
+        {
+          "itemId": 81,
+          "itemName": "Kadai Paneer",
+          "imageName": "kadai_paneer",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 82,
+          "itemName": "Palak Paneer",
+          "imageName": "palak_paneer",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 83,
+          "itemName": "Shahi Paneer",
+          "imageName": "shahi panner",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 84,
+          "itemName": "Paneer Chatpat",
+          "imageName": "veg chatpat",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 85,
+          "itemName": "Paneer Butter Masala",
+          "imageName": "paneer_butter_masala",
+          "itemPrice": 190
+        },
+        {
+          "itemId": 86,
+          "itemName": "Paneer Kaju Masala",
+          "imageName": "panner kaju masala",
+          "itemPrice": 220
+        },
+        {
+          "itemId": 87,
+          "itemName": "Kadai Mushroom",
+          "imageName": "kadai_mushroom",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 88,
+          "itemName": "Mushroom Masala",
+          "imageName": "mushroom_masala",
+          "itemPrice": 230
+        },
+        {
+          "itemId": 89,
+          "itemName": "Mushroom Butter Masala",
+          "imageName": "mushroom butter masala",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 90,
+          "itemName": "Mushroom Kaju Masala",
+          "imageName": "mushroom kaju masala",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 91,
+          "itemName": "Kaju Kadai",
+          "imageName": "Kaju kadai",
+          "itemPrice": 240
+        },
+        {
+          "itemId": 92,
+          "itemName": "Kaju Curry",
+          "imageName": "kaju curry",
+          "itemPrice": 240
+        }
+      ]
+    },
+    {
+      "title": "Rice Items",
+      "items": [
+        {
+          "itemId": 93,
+          "itemName": "White Rice",
+          "imageName": "white rice",
+          "itemPrice": 40
+        },
+        {
+          "itemId": 94,
+          "itemName": "Curd Rice",
+          "imageName": "curd_rice",
+          "itemPrice": 120
+        },
+        {
+          "itemId": 95,
+          "itemName": "Jeera Rice",
+          "imageName": "jeera rice",
+          "itemPrice": 120
+        },
+        {
+          "itemId": 96,
+          "itemName": "Jeera Fried Rice",
+          "imageName": "jeera fried rice",
+          "itemPrice": 140
+        },
+        {
+          "itemId": 97,
+          "itemName": "Veg. Fried Rice",
+          "imageName": "veg fried rice",
+          "itemPrice": 140
+        },
+        {
+          "itemId": 98,
+          "itemName": "Egg Fried Rice",
+          "imageName": "egg_friedrice",
+          "itemPrice": 140
+        },
+        {
+          "itemId": 99,
+          "itemName": "Chicken Fried Rice",
+          "imageName": "chicken fried rice",
+          "itemPrice": 150
+        },
+        {
+          "itemId": 100,
+          "itemName": "Tomato Rice",
+          "imageName": "tomato rice",
+          "itemPrice": 140
+        },
+        {
+          "itemId": 101,
+          "itemName": "Pudina Rice",
+          "imageName": "pudina_rice",
+          "itemPrice": 140
+        },
+        {
+          "itemId": 102,
+          "itemName": "Mushroom Fried Rice",
+          "imageName": "mushroom fried rice",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 103,
+          "itemName": "Kaju Fried Rice",
+          "imageName": "kaju fried rice",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 104,
+          "itemName": "Shejwan Fried Rice",
+          "imageName": "schezwan_fried_rice",
+          "itemPrice": 150
+        },
+        {
+          "itemId": 105,
+          "itemName": "Dal Khichdi",
+          "imageName": "schezwan_fried_rice",
+          "itemPrice": 150
+        },
+        {
+          "itemId": 106,
+          "itemName": "Paneer Shejwan Rice",
+          "imageName": "schezwan_paneer_fried_rice",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 107,
+          "itemName": "Paneer Fried Rice",
+          "imageName": "paneer_fried_rice",
+          "itemPrice": 160
+        },
+        {
+          "itemId": 108,
+          "itemName": "Paneer Kaju Fried Rice",
+          "imageName": "panner kaju fried rice",
+          "itemPrice": 170
+        },
+        {
+          "itemId": 109,
+          "itemName": "Mutton Fried Rice",
+          "imageName": "mutton fried rice",
+          "itemPrice": 170
+        },
+        {
+          "itemId": 110,
+          "itemName": "Non Veg Mix Fried Rice",
+          "imageName": "non veg mix fried rice",
+          "itemPrice": 170
+        },
+        {
+          "itemId": 111,
+          "itemName": "Masala Rice",
+          "imageName": "masala rice",
+          "itemPrice": 130
+        }
+      ]
+    },
+    {
+      "title": "Soups",
+      "items": [
+        {
+          "itemId": 112,
+          "itemName": "Veg Corn Soup",
+          "imageName": "veg corn soup",
+          "itemPrice": 80
+        },
+        {
+          "itemId": 113,
+          "itemName": "Veg Hot & Sour soup",
+          "imageName": "veg hot_and_sour_soup",
+          "itemPrice": 80
+        },
+        {
+          "itemId": 114,
+          "itemName": "Veg Manchow soup",
+          "imageName": "veg_manchow_soup",
+          "itemPrice": 80
+        },
+        {
+          "itemId": 115,
+          "itemName": "Tomato Soup",
+          "imageName": "tomato soup",
+          "itemPrice": 70
+        },
+        {
+          "itemId": 116,
+          "itemName": "Mushroom Soup",
+          "imageName": "mushroom soup",
+          "itemPrice": 80
+        },
+        {
+          "itemId": 117,
+          "itemName": "Chicken Corn Soup",
+          "imageName": "chicken corn soup",
+          "itemPrice": 90
+        },
+        {
+          "itemId": 118,
+          "itemName": "Chicken Hot & Sour Soup",
+          "imageName": "chicken hot and sour soup",
+          "itemPrice": 90
+        },
+        {
+          "itemId": 119,
+          "itemName": "Chicken Mushroom Soup",
+          "imageName": "chicken hot and sour soup",
+          "itemPrice": 110
+        }
+      ]
+    }
   ]
 }
