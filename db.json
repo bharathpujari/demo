@@ -1123,59 +1123,6 @@
           "itemPrice": 130
         }
       ]
-    },
-    {
-      "title": "Soups",
-      "items": [
-        {
-          "itemId": 112,
-          "itemName": "Veg Corn Soup",
-          "imageName": "veg corn soup",
-          "itemPrice": 80
-        },
-        {
-          "itemId": 113,
-          "itemName": "Veg Hot & Sour soup",
-          "imageName": "veg hot_and_sour_soup",
-          "itemPrice": 80
-        },
-        {
-          "itemId": 114,
-          "itemName": "Veg Manchow soup",
-          "imageName": "veg_manchow_soup",
-          "itemPrice": 80
-        },
-        {
-          "itemId": 115,
-          "itemName": "Tomato Soup",
-          "imageName": "tomato soup",
-          "itemPrice": 70
-        },
-        {
-          "itemId": 116,
-          "itemName": "Mushroom Soup",
-          "imageName": "mushroom soup",
-          "itemPrice": 80
-        },
-        {
-          "itemId": 117,
-          "itemName": "Chicken Corn Soup",
-          "imageName": "chicken corn soup",
-          "itemPrice": 90
-        },
-        {
-          "itemId": 118,
-          "itemName": "Chicken Hot & Sour Soup",
-          "imageName": "chicken hot and sour soup",
-          "itemPrice": 90
-        },
-        {
-          "itemId": 119,
-          "itemName": "Chicken Mushroom Soup",
-          "imageName": "chicken hot and sour soup",
-          "itemPrice": 110
-        }
-      ]
     }
   ]
 }
